@@ -803,4 +803,48 @@ img {
   cursor: pointer;
 }
 
+textarea {
+  resize: none;
+}
+
+.titel-form {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-color);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.form {
+  padding: 40px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
+  margin-bottom: 4px;
+}
+
+.form-field input {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+}
+
 /* =============END BACKDROP ============= */
